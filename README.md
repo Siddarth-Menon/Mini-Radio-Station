@@ -23,7 +23,7 @@ and the NRF24L01 modules are configured as the slave device. The ATMega32 is at 
 - The 16x2 LCD connected to the ATMega48 MCU displays date and time when no message is received by the receiver station.
 - To send a message, the message is entered in the send field of the Real Term softwrare with a '$' symbol in the beginning.
 - When the send ASCII button is clicked, the data is sent to the ATMega32 via DB9 port by UART protocol.
-- The data is then sent to the NRF module 1, this data is then sent wirelessly to the NRF module 2.
+- The data is then sent to the NRF module 1, this data is then sent wirelessly to the NRF module 2. (RF communication)
 - The NRF module 2 then sends the recieved data to the ATMega48 MCU.
 - The LCD is then cleared and the recieved data is then displayed on the it.
 
