@@ -26,6 +26,7 @@ and the NRF24L01 modules are configured as the slave device. The ATMega32 is at 
 - The data is then sent to the NRF module 1, this data is then sent wirelessly to the NRF module 2. (RF communication)
 - The NRF module 2 then sends the recieved data to the ATMega48 MCU.
 - The LCD is then cleared and the recieved data is then displayed on the it.
+- When the user stops transmitting messages, the LCD is cleared and the current Date-Time is displayed on it.
 
 ## Application:
 
