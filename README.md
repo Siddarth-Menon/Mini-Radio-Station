@@ -12,7 +12,7 @@
 2. ATMega48 MCU
 3. 16x2 LCD
 4. NRF24L01 2.4GHZ Transceivers
-5. RTC Module
+5. DS1307 (RTC Module)
 6. DB9 connector
 
 ## Working:
